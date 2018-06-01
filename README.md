@@ -21,7 +21,7 @@ Listen 1可以搜索和播放来自网易云音乐，虾米，QQ音乐三个主�
    
     删除.gitmodules文件
     git rm -rf --cached app/listen1_chrome_extension  
-    git submodule add https://github.com/listen1/listen1_chrome_extension.git  app/listen1_chrome_extension
+    git submodule add https://github.com/Cloudintheking/listen1_chrome_extension.git  app/listen1_chrome_extension
 
 运行
 ----
