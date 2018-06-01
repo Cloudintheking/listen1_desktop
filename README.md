@@ -8,20 +8,21 @@ Listen 1可以搜索和播放来自网易云音乐，虾米，QQ音乐三个主�
 * 支持Windows，Mac，Linux平台
 
 
-生成完整代码（原版有问题）
+生成完整代码方法一（适用于fork后从自己的git下拉取）
 -----------
 项目中包含了listen1_chrome_extension的引用，在checkout后需要把引用库初始化
 
+    要把listen1大佬的.gitmodules文件里的url换成了https://github.com/listen1/listen1_chrome_extension.git,然后执行下面的命令没问题
     git submodule update --init --recursive
     
 
-生成完整代码（修改版）
+生成完整代码方法二（适用于直接从listen1下拉取）
 -----------
 项目中包含了listen1_chrome_extension的引用，在checkout后需要把引用库初始化
    
     删除.gitmodules文件
     git rm -rf --cached app/listen1_chrome_extension  
-    git submodule add https://github.com/Cloudintheking/listen1_chrome_extension.git  app/listen1_chrome_extension
+    git submodule add https://github.com/listen1/listen1_chrome_extension.git  app/listen1_chrome_extension（重新生成.gitmodules文件）
 
 运行
 ----
