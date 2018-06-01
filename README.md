@@ -12,7 +12,7 @@ Listen 1可以搜索和播放来自网易云音乐，虾米，QQ音乐三个主�
 -----------
 项目中包含了listen1_chrome_extension的引用，在checkout后需要把引用库初始化
 
-    要把listen1大佬的.gitmodules文件里的url换成了https://github.com/listen1/listen1_chrome_extension.git,然后执行下面的命令没问题
+    要把listen1大佬的.gitmodules文件里的url换成了https://github.com/listen1/listen1_chrome_extension.git,再执行下面的命令
     git submodule update --init --recursive
     
 
