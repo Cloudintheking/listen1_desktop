@@ -13,9 +13,7 @@ Listen 1可以搜索和播放来自网易云音乐，虾米，QQ音乐三个主�
 项目中包含了listen1_chrome_extension的引用，在checkout后需要把引用库初始化
 
     git submodule add https://github.com/listen1/listen1_chrome_extension.git  app/listen1_chrome_extension
-
-运行
-----
+    
 
 生成完整代码（修改版）
 -----------
